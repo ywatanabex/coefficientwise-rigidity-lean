@@ -1,0 +1,19 @@
+{
+  "title": "Coefficientwise Extremality and Rigidity for Independent Sets in Bipartite Graph Covers",
+  "authors": [
+    "Yusuke Watanabe"
+  ],
+  "arxiv_id": null,
+  "arxiv_version": null,
+  "arxiv_url": null,
+  "code_release": null,
+  "manuscript_source_sha256": "7427a3a0543ba9a83ce6c54a0d3b4cf784d37b46c47d63035bfaf5f0c39cd3b2",
+  "correspondence_checked_on": "2026-10-10",
+  "entry_point": "CoefficientwiseRigidity.manuscriptMainTheorems : ManuscriptMainTheorems",
+  "formalized_scope": "Every clause of main Theorems A-C; auxiliary exclusions are listed in FORMALIZATION.md.",
+  "provenance": {
+    "proof_source_revision": "b5cad2b342636e1adcc4f955ab5d439c7fab1ef1",
+    "note": "Proof sources copied byte-for-byte from the locally kernel-checked manuscript package; public release metadata is pending."
+  },
+  "publication_status": "Unpublished; arXiv submission planned."
+}

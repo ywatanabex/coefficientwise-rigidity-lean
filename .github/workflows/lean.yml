@@ -1,0 +1,43 @@
+name: Lean proof verification
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: lean-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Install Lean and obtain pinned dependency cache
+        uses: leanprover/lean-action@v1
+        with:
+          auto-config: "false"
+          build: "false"
+          test: "false"
+          lint: "false"
+          use-mathlib-cache: "true"
+      - name: Clean build, axiom audit and independent diagnostics
+        run: python3 checks/validate_paper.py --clean
+      - name: Show validation logs on failure
+        if: failure()
+        run: |
+          for log in validation/*.log; do
+            if [ -f "$log" ]; then
+              echo "::group::$log"
+              tail -n 100 "$log"
+              echo "::endgroup::"
+            fi
+          done
