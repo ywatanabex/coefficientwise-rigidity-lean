@@ -3,6 +3,7 @@
 Lean 4 formalization of **all clauses of the main Theorems A–C** of
 
 > Yusuke Watanabe, *Coefficientwise Extremality and Rigidity for Independent Sets in Bipartite Graph Covers*.
+> [arXiv:2610.14892](https://arxiv.org/abs/2610.14892), 2026.
 
 The formalization status is **VERIFIED (Lean kernel checked)** for these
 main theorems. [FORMALIZATION.md](FORMALIZATION.md) records the precise
@@ -89,14 +90,15 @@ ratios with positive denominators.
 
 ## Paper version
 
-The manuscript is not yet published; an arXiv submission is planned.
-The identifier and version are pending. [MANUSCRIPT.json](MANUSCRIPT.json) identifies
-the manuscript used for this correspondence by its exact SHA-256 digest.
+The correspondence in this repository is to
+[arXiv:2610.14892v1](https://arxiv.org/abs/2610.14892v1), submitted on
+10 October 2026. [MANUSCRIPT.json](MANUSCRIPT.json) records this version,
+its URL and the exact SHA-256 digest of `paper.tex` obtained from the
+[arXiv source archive](https://arxiv.org/src/2610.14892v1).
+The digest identifies the extracted TeX file, not the archive or PDF.
 The paper source and PDF are not required to build these proofs.
 
-When the manuscript receives an arXiv version, record that version and its
-URL in `MANUSCRIPT.json` and here, and associate it with the corresponding
-code release.
+No tagged code release has yet been assigned in `MANUSCRIPT.json`.
 
 ## Contents
 

@@ -3,17 +3,20 @@
   "authors": [
     "Yusuke Watanabe"
   ],
-  "arxiv_id": null,
-  "arxiv_version": null,
-  "arxiv_url": null,
+  "arxiv_id": "2610.14892",
+  "arxiv_version": 1,
+  "arxiv_url": "https://arxiv.org/abs/2610.14892v1",
   "code_release": null,
-  "manuscript_source_sha256": "7427a3a0543ba9a83ce6c54a0d3b4cf784d37b46c47d63035bfaf5f0c39cd3b2",
-  "correspondence_checked_on": "2026-10-10",
+  "manuscript_source_sha256": "78872668af02333c79e45894326e126b1c832582e77b32a814df114fcbc21d15",
+  "correspondence_checked_on": "2026-10-14",
   "entry_point": "CoefficientwiseRigidity.manuscriptMainTheorems : ManuscriptMainTheorems",
   "formalized_scope": "Every clause of main Theorems A-C; auxiliary exclusions are listed in FORMALIZATION.md.",
   "provenance": {
     "proof_source_revision": "b5cad2b342636e1adcc4f955ab5d439c7fab1ef1",
-    "note": "Proof sources copied byte-for-byte from the locally kernel-checked manuscript package; public release metadata is pending."
+    "note": "Proof sources copied byte-for-byte from the locally kernel-checked manuscript package. The source digest was verified against paper.tex in the public arXiv v1 source archive; main Theorems A-C are byte-for-byte unchanged from the previous correspondence manuscript. No tagged code release is assigned.",
+    "previous_manuscript_source_sha256": "7427a3a0543ba9a83ce6c54a0d3b4cf784d37b46c47d63035bfaf5f0c39cd3b2"
   },
-  "publication_status": "Unpublished; arXiv submission planned."
+  "publication_status": "Public arXiv preprint: arXiv:2610.14892v1.",
+  "manuscript_source_file": "paper.tex",
+  "manuscript_source_url": "https://arxiv.org/src/2610.14892v1"
 }
